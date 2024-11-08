@@ -399,7 +399,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-about .grid-layout>div div:nth-child(2) {
-    xwidth: 49%
+    padding: 40px 90px 40px 90px;
 }
 
 @media screen and (max-width: 1200px) {
