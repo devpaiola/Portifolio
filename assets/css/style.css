@@ -93,7 +93,7 @@ header {
 
 header .grid-layout nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
     height: 100px;
@@ -106,7 +106,8 @@ header .grid-layout nav img {
 
 header .grid-layout nav .nav-list {
     list-style: none;
-    display: flex
+    display: flex;
+    justify-content: flex-end;
 }
 
 header .grid-layout nav .nav-list li {
