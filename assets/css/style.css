@@ -27,6 +27,8 @@ img {
     display: block
 }
 
+
+
 p,
 h1,
 h2,
@@ -455,11 +457,10 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 @media screen and (max-width: 600px) {
-    #s-about .grid-layout>div div:nth-child(2) {
-        padding: 20px;
+    #about {
+        padding: 1px 1px 8px 16px;
     }
 }
-
 
 @media screen and (max-width: 1200px) {
     #s-about .grid-layout>div div:nth-child(2) nav ul {
@@ -489,6 +490,13 @@ header .grid-layout nav .nav-list li a:hover {
 #s-about .grid-layout>div div:nth-child(2) nav ul a:hover {
     border-color: #2600ff
 }
+
+@media screen and (max-width: 600px) {
+    #s-about .grid-layout>div div:nth-child(2) {
+        padding: 20px;
+    }
+}
+
 
 #s-experience {
     background-color: #151515;
