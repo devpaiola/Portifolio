@@ -1056,4 +1056,52 @@ footer div {
     margin: 0 auto
 }
 
-/*# sourceMappingURL=style.css.map */
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.nav-list.active {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+@media screen and (max-width: 992px) {
+    .nav-list {
+        text-align: center;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 999;
+        background-color: rgba(21, 21, 21, 0.95);
+        flex-direction: column;
+        padding-top: 96px;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+    }
+
+    header .grid-layout nav .nav-list li {
+        opacity: 0;
+        margin-bottom: 48px;
+    }
+
+    header .grid-layout nav .nav-list li a {
+        font-size: 2.4rem;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
