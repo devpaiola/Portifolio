@@ -650,19 +650,19 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout #projects .teslabank {
-    border: 1px solid #e51d37
+    border: 1px solid #fff
 }
 
 #s-projects .grid-layout #projects .teslabank:hover {
-    border: 1px solid #e51d37
+    border: 1px solid #fff
 }
 
 #s-projects .grid-layout #projects .naped {
-    border: 1px solid #00a3ff
+    border: 1px solid #fff
 }
 
 #s-projects .grid-layout #projects .naped:hover {
-    border: 1px solid #00a3ff
+    border: 1px solid #fff
 }
 
 #s-projects .grid-layout #projects .efront {
@@ -724,7 +724,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout #teslabank {
-    color: #e51d37
+    color: #fff
 }
 
 #s-projects .grid-layout #teslabank::after {
@@ -732,7 +732,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout #naped {
-    color: #00a3ff
+    color: #fff
 }
 
 #s-projects .grid-layout #naped::after {
