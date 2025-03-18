@@ -6,7 +6,7 @@
 }
 
 ::selection {
-    background-color: #2600ff;
+    background-color: #f66421;
     color: #fff
 }
 
@@ -70,7 +70,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #2600ff;
+    background-color: #f66421;
     border-radius: 8px
 }
 
@@ -136,7 +136,7 @@ header .grid-layout nav .nav-list li a::after {
     height: 1px;
     bottom: -7px;
     left: 0;
-    background: linear-gradient(270deg, #2600ff 0%, #17161d 100%);
+    background: linear-gradient(270deg, #f66421 0%, #17161d 100%);
     transform-origin: bottom right;
     transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1)
 }
@@ -282,7 +282,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-home .grid-layout #home #home-container-text h1 span {
-    color: #2600ff
+    color: #f66421
 }
 
 #s-home .grid-layout #home #home-container-text p {
@@ -298,7 +298,7 @@ header .grid-layout nav .nav-list li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #2600ff;
+    background: #f66421;
     color: #fff;
     backdrop-filter: blur(10px);
     padding: 20px 32px;
@@ -433,7 +433,7 @@ header .grid-layout nav .nav-list li a:hover {
 #s-about .grid-layout>div div:nth-child(2) h4 {
     font-size: 2rem;
     font-weight: 500;
-    color: #2600ff
+    color: #f66421
 }
 
 #s-about .grid-layout>div div:nth-child(2) p {
@@ -488,7 +488,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-about .grid-layout>div div:nth-child(2) nav ul a:hover {
-    border-color: #2600ff
+    border-color: #f66421
 }
 
 @media screen and (max-width: 600px) {
@@ -518,7 +518,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-experience .grid-layout h2 span {
-    color: #2600ff
+    color: #f66421
 }
 
 #s-experience .grid-layout #experience {
@@ -546,8 +546,8 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-experience .grid-layout #experience .option-experience .activeExperience {
-    border-left: 4px solid #2600ff;
-    color: #2600ff
+    border-left: 4px solid #f66421;
+    color: #f66421
 }
 
 #s-experience .grid-layout #experience .option-experience .activeExperience h3 {
@@ -607,7 +607,7 @@ header .grid-layout nav .nav-list li a:hover {
     font-size: 2rem;
     margin: 32px 0px;
     font-weight: 500;
-    color: #2600ff
+    color: #f66421
 }
 
 #s-experience .grid-layout #experience .text-experience p {
@@ -637,7 +637,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout h2 span {
-    color: #2600ff
+    color: #f66421
 }
 
 #s-projects .grid-layout #projects {
@@ -694,7 +694,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout #projects>article:hover {
-    border: 1px solid #2600ff
+    border: 1px solid #ffffff
 }
 
 @media screen and (max-width: 1200px) {
@@ -728,7 +728,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout #teslabank::after {
-    background: linear-gradient(270deg, #e51d37 0%, #17161d 100%)
+    background: linear-gradient(270deg, #ffffff 0%, #17161d 100%)
 }
 
 #s-projects .grid-layout #naped {
@@ -736,7 +736,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout #naped::after {
-    background: linear-gradient(270deg, #00a3ff 0%, #17161d 100%)
+    background: linear-gradient(270deg, #ffffff 0%, #17161d 100%)
 }
 
 #s-projects .grid-layout #efront {
@@ -752,11 +752,11 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout #steam::after {
-    background: linear-gradient(270deg, #536fed 0%, #17161d 100%)
+    background: linear-gradient(270deg, #ffffff 0%, #17161d 100%)
 }
 
 #s-projects .grid-layout a {
-    color: #2600ff;
+    color: #ffffff;
     position: relative;
     font-size: 2rem;
     font-weight: 400
@@ -770,7 +770,7 @@ header .grid-layout nav .nav-list li a:hover {
     height: 1px;
     bottom: -7px;
     left: 0;
-    background: linear-gradient(270deg, #2600ff 0%, #17161d 100%);
+    background: linear-gradient(270deg, #ffffff 0%, #17161d 100%);
     transform-origin: bottom right;
     transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1)
 }
@@ -817,7 +817,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-services .grid-layout h2 span {
-    color: #2600ff
+    color: #f66421
 }
 
 #s-services .grid-layout #services {
@@ -841,7 +841,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-services .grid-layout #services article:hover {
-    border: 1px solid #2600ff
+    border: 1px solid #f66421
 }
 
 @media screen and (max-width: 1200px) {
@@ -928,7 +928,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-skills .grid-layout #skills #skills-text h2 span {
-    color: #2600ff
+    color: #f66421
 }
 
 #s-skills .grid-layout #skills #skills-text .changeDescription {
@@ -977,7 +977,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-skills .grid-layout #skills #skills-cards article:hover {
-    border: 1px solid #2600ff
+    border: 1px solid #f66421
 }
 
 @media screen and (max-width: 768px) {
@@ -1007,7 +1007,7 @@ footer p {
 
 footer p a {
     font-weight: 500;
-    color: #2600ff
+    color: #f66421
 }
 
 footer img {
@@ -1038,7 +1038,7 @@ footer div {
     margin-left: 8px;
     opacity: 1;
     animation: blink 1s infinite;
-    color: #2600ff
+    color: #f66421
 }
 
 @keyframes blink {
